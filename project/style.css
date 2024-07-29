@@ -1,7 +1,10 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
+
+
 
 .navbar{
    
@@ -421,11 +424,11 @@
  }
  .teconology_img>img{
     height: 100%;
-    width: 100%;
+    width: 90%;
  }
 
  .teconology_banner{
-    background-image: url("/banner.png");
+    background-image: url("/project/banner.png");
     background-size: cover;
     height: 800px;
     width: 100%;
@@ -453,7 +456,7 @@
     margin-bottom: 30px;
     color:rgb(23, 23, 123) ;
  }
- .development_heading>pre{
+ .development_heading>p{
     font-size: 17px;
     font-weight: 550;
 
