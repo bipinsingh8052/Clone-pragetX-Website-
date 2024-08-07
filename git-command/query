@@ -64,7 +64,7 @@ it means you can change the branch name and you can also used it.
 2. git branch -M (to rename branch)
 you can change the branch name.
 
-6. git branch -M (your old branch name) and (what you  rename it branch name:)
+6. git branch -M (your old branch name)    (what you  rename it branch name:)
  it mains you can change it old branch name by this method.
 
 3. git checkout  -b (new branch name)
@@ -91,6 +91,8 @@ it mains you can delete the branch .
 2. git merge (branch name)
 merge to file name.
 
+
+
 <!--  Pull command  -->
 
 1. git pull origin main
@@ -105,6 +107,18 @@ its main used when you merge to branch in github then you fetch and download con
   its also show your all commit but not a detail.
 
 
+<!-- restore it in  the local server  -->
+1. git restore --staged  (filename)
+its sift it staged to unstaged  convert it file
+
+ 2. git retore -- staged   .
+ its sift it staged to unstaged  convert it all file
+
+ 3. git restore (filename)
+ its revert (it main delete ) you file
+
+ 4. git restore .
+  its revert (it main delete ) you  all file
 
   
 <!-- Undoing Changes -->

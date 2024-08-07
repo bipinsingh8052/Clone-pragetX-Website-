@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    
+}
+ #hero{
+    height: 70px;
+    width: 100%;
+    background-color: #622323;
+    color: white;
+    
+
+ }
+ .navbar{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+ }
+
+ .navbar >.logo {
+    height: 60px;
+    width: 60px;
+    background-image: url("https://media.licdn.com/dms/image/v2/D4E0BAQG-i2j7Q2WFIA/company-logo_200_200/company-logo_200_200/0/1694593112031/img_logo?e=2147483647&v=beta&t=EPGRytuEOVPFLctZkKdIxLl_1W7QhVFrLeS-GwWjJj0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 1px -1px 2.5px 2.5px rgb(227, 226, 235);
+    margin-left: 10px;
+    cursor: pointer;
+ }
+ .navbar > ul {
+    display: flex;
+    gap: 30px;
+   
+ }
+ .navbar > ul >li {
+    list-style-type: none;
+    
+ }
+ .navbar >ul >li >a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    font-family: cursive;
+ }
+ .navbar >ul >li >a:hover{
+    border-bottom: 2px solid rgb(14, 10, 102);
+    color: #23f350;
+ }
+ .navbar_icon{
+    display: flex;
+    gap: 20px;
+    padding-right: 10px;
+    
+
+ }
+ .navbar_icon >i {
+    font-size: 27px;
+    cursor: pointer;
+
+ }
