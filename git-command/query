@@ -112,7 +112,7 @@ its main used when you merge to branch in github then you fetch and download con
   its also show your all commit but not a detail.
 
 
-<!-- restore it in  the local server  -->
+<!-- restore it in  the local server  work on staged to unstaged  Convert -->
 1. git restore --staged  (filename)
 its sift it staged to unstaged  convert it file
 
@@ -128,8 +128,8 @@ its sift it staged to unstaged  convert it file
   
 <!-- Undoing Changes -->
 <!-- its when you do any mistake (delete the file ) then you used it  -->
- 1. git reset (filename)
- its reset only that file 
+ 1. git reset (hash code)
+ its convert you file in unstaged.
 
  2. git reset
  its reset  all files 
@@ -137,12 +137,15 @@ its sift it staged to unstaged  convert it file
  3. git reset HEAD~1
  its reset the last commit because last commit we called HEAD.
 
- 4. git log 
- you can check your all commit
 
  5. git reset (Enter the commmit hash)
- when you write commit hash then you go it there.
+ its convert you file in unstaged.but you data  (file) is not deleted
 
+ 6. git reset --soft  <hash code>
+ its convert to you file staged but you data  (file) is not deleted
+
+7. git reset --hard <hash code>
+its delete it all file and data (you can come me the enter the hash code)
 
 <!-- Fork -->
 a fork is a new repository that shares code and visibility setting with the original "upstream respository".
