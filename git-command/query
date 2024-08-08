@@ -91,6 +91,11 @@ it mains you can delete the branch .
 2. git merge (branch name)
 merge to file name.
 
+3. git rebase main(branch)
+when you sift the branch location in the main (isska matlb ky hm ke jab hum main branch aur feature branch dono mai kaam karta hm tab humko apni feature branch ko main branch ky aaga karna hm to hum rebase use karta hm)
+
+4. git merge --squash (branch name)
+its main delete it commit all in the feature branch (isska matlb ya hm ke jab hum --squash  use karta hm tum hum feature hum jo ve commit karta hm wo delete kar deta hm aur merge kar dta hm )
 
 
 <!--  Pull command  -->
