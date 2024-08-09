@@ -147,6 +147,11 @@ its sift it staged to unstaged  convert it file
 7. git reset --hard <hash code>
 its delete it all file and data (you can come me the enter the hash code)
 
+
+<!-- Roolback KEy of REVERT -->
+ 1. git revert <hash code>
+ jab humko koe midle file delete karna hm tab hum git revert ky use karta hm ya humko ek aur commit add kar deta hm fir jab humko delete karna ky baad  fir sa ussko apni file mai lena hm jab hum git reset karta jo new commit keya hm ussko delete karna hm tab humko dekhga.
+ 
 <!-- Fork -->
 a fork is a new repository that shares code and visibility setting with the original "upstream respository".
 {it means you create your pull request and you can copy by the content in the your github }
